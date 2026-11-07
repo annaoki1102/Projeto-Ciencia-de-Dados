@@ -3,10 +3,20 @@
 Projeto de Ciência de Dados seguindo o modelo CRISP-DM.
 Disciplina: Ciência de Dados e Aprendizagem de Máquina.
 
+## Objetivo
+
+Usar os dados abertos da PRF para entender **quando** e **por que** acontecem os acidentes com mortes nas rodovias federais. A ideia é que a análise ajude a pensar em onde e em que horários a prevenção e a fiscalização são mais necessárias.
+
 ## Perguntas do projeto
 
-1. Em que **dia da semana e horário** os acidentes **com mortes** mais acontecem?
-2. Quais **causas** mais levam a mortes, e isso muda por **estado**?
+**Pergunta 1:** Em que **dia da semana e horário** os acidentes **com mortes** mais acontecem?
+
+**Pergunta 2:** Quais **causas** mais levam a mortes, e isso muda por **estado**?
+
+## Como vamos responder
+
+- Pergunta 1: contar os acidentes com mortes por dia da semana e por hora, e mostrar em um mapa de calor.
+- Pergunta 2: somar os mortos por causa e por estado, e comparar em gráficos de barras, mapa do Brasil e mapa de calor.
 
 ## Dados
 
