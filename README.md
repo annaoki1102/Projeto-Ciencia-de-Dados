@@ -15,7 +15,8 @@ Disciplina: Ciência de Dados e Aprendizagem de Máquina.
 - Período previsto: 2020 a 2025
 - Formato: CSV "agrupados por ocorrência" (uma linha por acidente)
 
-Os CSVs originais ficam em `data/raw/` e não são enviados ao GitHub (ver `.gitignore`).
+Os CSVs originais (`datatran2020.csv` a `datatran2025.csv`) ficam em `data/raw/`, sem nenhuma alteração.
+Codificação: latin-1. Separador: `;`. Decimal: `,`.
 
 ## Estrutura
 
