@@ -7,6 +7,22 @@ Disciplina: Ciência de Dados e Aprendizagem de Máquina.
 
 Usar os dados abertos da PRF para entender **quando** e **por que** acontecem os acidentes com mortes nas rodovias federais. A ideia é que a análise ajude a pensar em onde e em que horários a prevenção e a fiscalização são mais necessárias.
 
+## Critérios de sucesso e objetivos técnicos
+
+**Critérios de sucesso:**
+- Responder às duas perguntas com base nos dados da PRF.
+- Cada resposta apoiada por pelo menos um gráfico.
+- Conclusões escritas sem exagerar o que os números mostram.
+
+**Objetivos técnicos:**
+- Preparar os dados de 2020 a 2025 em um único arquivo limpo.
+- Contar acidentes com morte por dia da semana e hora.
+- Somar mortos por causa e por estado, comparando também a proporção.
+- Treinar uma árvore de decisão simples para testar se esses dados preveem mortes.
+
+**Plano do projeto (15 dias):**
+Entendimento do negócio e dados, preparação, modelagem, análise das duas perguntas, avaliação e relatório final.
+
 ## Perguntas do projeto
 
 **Pergunta 1:** Em que **dia da semana e horário** os acidentes **com mortes** mais acontecem?
@@ -16,7 +32,15 @@ Usar os dados abertos da PRF para entender **quando** e **por que** acontecem os
 ## Como vamos responder
 
 - Pergunta 1: contar os acidentes com mortes por dia da semana e por hora, e mostrar em um mapa de calor.
-- Pergunta 2: somar os mortos por causa e por estado, e comparar em gráficos de barras, mapa do Brasil e mapa de calor.
+- Pergunta 2: somar os mortos por causa e por estado, e comparar em gráfico de barras e mapa de calor.
+
+## Principais resultados
+
+**Pergunta 1:** os acidentes com morte foram mais frequentes aos domingos (5.845) e sábados (5.344), e o horário com mais casos foi às 19h (2.555). Os números contam acidentes e não consideram o fluxo de veículos.
+
+**Pergunta 2:** as causas com mais mortos foram transitar na contramão (4.168), velocidade incompatível (3.280) e ausência de reação do condutor (3.262). A causa que mais pesa muda por estado.
+
+Gráficos em `dashboard/`.
 
 ## Dados
 
@@ -50,13 +74,12 @@ Codificação: latin-1. Separador: `;`. Decimal: `,`.
 | 2. Entendimento dos Dados | `02_dados.ipynb` | concluída |
 | 3. Preparação dos Dados | `03_preparacao.ipynb` | concluída |
 | 4. Modelagem | `04_modelagem.ipynb` | concluída |
-| 5. Avaliação | `05_avaliacao.ipynb` | pendente |
+| 5. Avaliação | `05_pergunta1.ipynb e 06_pergunta2.ipynb` | pendente |
 | 6. Implementação | `docs/` | pendente |
 
 ## Gráficos planejados
 
-Mapa de calor, linhas, barras horizontais, lollipop, mapa do Brasil e treemap.
-Não usamos gráfico de pizza.
+Mapa de calor, linha e barras horizontais. Não usamos gráfico de pizza.
 
 ## Ferramentas
 
