@@ -47,9 +47,9 @@ Codificação: latin-1. Separador: `;`. Decimal: `,`.
 | Fase | Notebook | Status |
 |------|----------|--------|
 | 1. Entendimento do Negócio | `01_negocio.ipynb` | em andamento |
-| 2. Entendimento dos Dados | `02_dados.ipynb` | pendente |
-| 3. Preparação dos Dados | `03_preparacao.ipynb` | pendente |
-| 4. Modelagem | `04_modelagem.ipynb` | pendente |
+| 2. Entendimento dos Dados | `02_dados.ipynb` | concluída |
+| 3. Preparação dos Dados | `03_preparacao.ipynb` | concluída |
+| 4. Modelagem | `04_modelagem.ipynb` | concluída |
 | 5. Avaliação | `05_avaliacao.ipynb` | pendente |
 | 6. Implementação | `docs/` | pendente |
 
@@ -60,8 +60,8 @@ Não usamos gráfico de pizza.
 
 ## Ferramentas
 
-Python, pandas, seaborn, plotly e matplotlib.
+Python, pandas, seaborn, plotly, matplotlib e scikit-learn.
 
 ## Autoria
 
-Anna Oki
+Anna Beatriz Oki e Lucas Fortes.
