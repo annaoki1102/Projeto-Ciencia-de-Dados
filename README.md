@@ -38,9 +38,17 @@ Entendimento do negócio e dados, preparação, modelagem, análise das duas per
 
 **Pergunta 1:** os acidentes com morte foram mais frequentes aos domingos (5.845) e sábados (5.344), e o horário com mais casos foi às 19h (2.555). Os números contam acidentes e não consideram o fluxo de veículos.
 
+![Mapa de calor: acidentes com morte por dia da semana e hora](dashboard/p1_mapa_calor_dia_hora.png)
+
+O mapa de calor mostra que as cores mais escuras ficam entre 18h e 19h, principalmente aos sábados e domingos.
+
 **Pergunta 2:** as causas com mais mortos foram transitar na contramão (4.168), velocidade incompatível (3.280) e ausência de reação do condutor (3.262). A causa que mais pesa muda por estado.
 
-Gráficos em `dashboard/`.
+![Mapa de calor: peso de cada causa nas mortes de cada estado](dashboard/p2_mapa_calor_causa_estado.png)
+
+O mapa de calor mostra, em porcentagem, quanto cada uma das 5 principais causas pesa nas mortes de cada estado.
+
+Todos os gráficos estão em `dashboard/`.
 
 ## Dados
 
