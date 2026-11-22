@@ -70,7 +70,7 @@ Codificação: latin-1. Separador: `;`. Decimal: `,`.
 
 | Fase | Notebook | Status |
 |------|----------|--------|
-| 1. Entendimento do Negócio | `01_negocio.ipynb` | em andamento |
+| 1. Entendimento do Negócio | `README.md` | concluída |
 | 2. Entendimento dos Dados | `02_dados.ipynb` | concluída |
 | 3. Preparação dos Dados | `03_preparacao.ipynb` | concluída |
 | 4. Modelagem | `04_modelagem.ipynb` | concluída |
