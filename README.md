@@ -74,8 +74,8 @@ Codificação: latin-1. Separador: `;`. Decimal: `,`.
 | 2. Entendimento dos Dados | `02_dados.ipynb` | concluída |
 | 3. Preparação dos Dados | `03_preparacao.ipynb` | concluída |
 | 4. Modelagem | `04_modelagem.ipynb` | concluída |
-| 5. Avaliação | `05_pergunta1.ipynb e 06_pergunta2.ipynb` | pendente |
-| 6. Implementação | `docs/` | pendente |
+| 5. Avaliação | `07_avaliacao.ipynb` | concluída |
+| 6. Implementação | `docs/relatorio_final.md` | concluída |
 
 ## Gráficos planejados
 
