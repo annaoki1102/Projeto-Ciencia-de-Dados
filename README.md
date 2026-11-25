@@ -48,6 +48,14 @@ O mapa de calor mostra que as cores mais escuras ficam entre 18h e 19h, principa
 
 O mapa de calor mostra, em porcentagem, quanto cada uma das 5 principais causas pesa nas mortes de cada estado.
 
+**Gráficos extras** (`notebooks/08_graficos_extras.ipynb`, ideia do Lucas): o gráfico de lollipop mostra que as causas mais frequentes nos acidentes não são as que mais matam. Transitar na contramão é a 11ª causa em acidentes, mas a 1ª em mortos.
+
+![Lollipop: acidentes por causa](dashboard/p3_lollipop_causas_frequencia.png)
+
+O mapa do Brasil mostra o total de mortos por estado (MG, PR e BA lideram). São números absolutos, sem ajuste pelo tamanho da malha viária ou pelo tráfego.
+
+![Mapa do Brasil: mortos por estado](dashboard/p3_mapa_mortos_estado.png)
+
 Todos os gráficos estão em `dashboard/`.
 
 ## Dados
@@ -65,6 +73,7 @@ Codificação: latin-1. Separador: `;`. Decimal: `,`.
 ```
 ├── data/
 │   ├── raw/          dados originais da PRF
+│   ├── external/     contornos dos estados (GeoJSON) para o mapa
 │   └── processed/    dados limpos
 ├── notebooks/        um notebook por fase do CRISP-DM
 ├── sql/              consultas (se usarmos)
@@ -84,14 +93,17 @@ Codificação: latin-1. Separador: `;`. Decimal: `,`.
 | 4. Modelagem | `04_modelagem.ipynb` | concluída |
 | 5. Avaliação | `07_avaliacao.ipynb` | concluída |
 | 6. Implementação | `docs/relatorio_final.md` | concluída |
+| Extra: gráficos adicionais | `08_graficos_extras.ipynb` | concluída |
 
 ## Gráficos planejados
 
-Mapa de calor, linha e barras horizontais. Não usamos gráfico de pizza.
+Mapa de calor, linha, barras horizontais, lollipop e mapa do Brasil. Não usamos gráfico de pizza.
 
 ## Ferramentas
 
 Python, pandas, seaborn, plotly, matplotlib e scikit-learn.
+
+Contornos dos estados: [geodata-br-states](https://github.com/giuliano-macedo/geodata-br-states) (arquivo simplificado em `data/external/`).
 
 ## Autoria
 
